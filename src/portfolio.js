@@ -7,21 +7,17 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Arm Leung",
+  title: "Hi all, I'm Arm",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks.")
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/armleung",
+  gmail: "leoleung4work@gmail.com",
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -145,6 +141,44 @@ const workExperiences = {
       companylogo: require("./assets/images/airbnbLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+  ]
+};
+
+// Your top 3 services
+
+const services = {
+  viewServices: true, //Set it to true to show service Section
+  Services: [
+    {
+      logo : require("./assets/images/facebookLogo.png"),
+      title: "Digital Product",
+      desc : "",
+      descBullets: [
+        "Linux Server Cron Jobs",
+        "Design Spec Documentation",
+        "Testing Automation"
+      ]
+    },
+    {
+      logo : require("./assets/images/facebookLogo.png"),
+      title: "Front-end Developer",
+      desc : "",
+      descBullets: [
+        "Wordpress CMS Development",
+        "React Single Web Application Development"
+      ]
+    },
+    {
+      logo : require("./assets/images/facebookLogo.png"),
+      title: "Search Engine Consulting",
+      desc : "",
+      descBullets: [
+        "SEO and SEM Consulting",
+        "SEO Training",
+        "Online advertising planing and buying",
+        "SEO api service"
+      ]
     },
   ]
 };
@@ -277,4 +311,5 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, 
+  bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails , services};
