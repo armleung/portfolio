@@ -1,8 +1,7 @@
 import React from "react";
 import "./Services.css";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import ServiceCard from "../../components/serviceCard/ServiceCard";
-import { workExperiences , services } from "../../portfolio";
+import { services } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 

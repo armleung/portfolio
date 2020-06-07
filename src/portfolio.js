@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Arm Leung",
   title: "Hi all, I'm Arm",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks.")
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs and some other cool libraries and frameworks.")
 };
 
 // Your Social Media Link
@@ -24,12 +24,11 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "SOLUTION PROVIDER MEETS YOUR NEED",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
+    emoji("⚡ Integration of third party services such as AWS")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -53,20 +52,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "react",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "sql-database",
@@ -75,18 +82,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -151,17 +146,19 @@ const services = {
   viewServices: true, //Set it to true to show service Section
   Services: [
     {
-      logo : require("./assets/images/facebookLogo.png"),
-      title: "Digital Product",
+      logo : require("./assets/images/brain.png"),
+      title: "Digital Service / Product",
       desc : "",
       descBullets: [
+        "Ecommerce System",
+        "Cloud Service Migration",
         "Linux Server Cron Jobs",
         "Design Spec Documentation",
         "Testing Automation"
       ]
     },
     {
-      logo : require("./assets/images/facebookLogo.png"),
+      logo : require("./assets/images/web-programming.png"),
       title: "Front-end Developer",
       desc : "",
       descBullets: [
@@ -170,7 +167,7 @@ const services = {
       ]
     },
     {
-      logo : require("./assets/images/facebookLogo.png"),
+      logo : require("./assets/images/computer.png"),
       title: "Search Engine Consulting",
       desc : "",
       descBullets: [
@@ -188,7 +185,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "armleung", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
