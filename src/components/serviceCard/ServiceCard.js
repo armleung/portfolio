@@ -29,7 +29,7 @@ export default function ServiceCard({ cardInfo }) {
         <img crossOrigin={"anonymous"} ref={imgRef} className="service-roundedimg" src={cardInfo.logo} alt={cardInfo.title} onLoad={() => getColorArrays()}/>
       </div>
       <div className="service-text-details">
-        <h5 className="experience-text-role">{cardInfo.title}</h5>
+        <h5 className="service-text-role">{cardInfo.title}</h5>
         <p className="subTitle service-text-desc">{cardInfo.desc}</p>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} />
