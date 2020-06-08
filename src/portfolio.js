@@ -56,7 +56,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "react",
+      skillName: "WordPress",
       fontAwesomeClassname: "fab fa-wordpress"
     },
     {
@@ -151,10 +151,8 @@ const services = {
       desc : "",
       descBullets: [
         "Ecommerce System",
-        "Cloud Service Migration",
-        "Linux Server Cron Jobs",
-        "Design Spec Documentation",
-        "Testing Automation"
+        "Web scraper",
+        "Cloud Service Migration"
       ]
     },
     {
@@ -162,8 +160,8 @@ const services = {
       title: "Front-end Developer",
       desc : "",
       descBullets: [
-        "Wordpress CMS Development",
-        "React Single Web Application Development"
+        "React Single Web Application Development",
+        "Wordpress CMS Development"
       ]
     },
     {
@@ -174,7 +172,7 @@ const services = {
         "SEO and SEM Consulting",
         "SEO Training",
         "Online advertising planing and buying",
-        "SEO api service"
+        "SEO API service"
       ]
     },
   ]
